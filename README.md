@@ -12,7 +12,7 @@ Para termos um padrão nos arquivos que vamos exportar, vamos definir o seguinte
 - deverão ficar na mesma pasta onde o programa está sendo executado;
 - para delimitar os atributos de um User, usaremos o caracter "," (vírgula);
 - para delimitar um Objeto User inteiro usaremos ";" (ponto e vírgula) em um nova linha;
-- ex.:
-1,Jose,jose@gmail.com;
-2,Maria,maria@gmail.com;
+- ex.:  
+1,Jose,jose@gmail.com;  
+2,Maria,maria@gmail.com;  
 - espaços em branco serão ignorados nos atributos ID e Email, e ignorados no início e final do atributo Nome;
