@@ -23,7 +23,7 @@ def switch(opt):
 		switch(raw_input("\n>"));	
 		
 	else:
-		switch(raw_input("WTF your say? do U realy this is a correctly? say help noob\n>"))
+		switch(raw_input("WTF you want? say help nb\n>"))
 	
 
 switch(raw_input(">"));
