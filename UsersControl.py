@@ -22,6 +22,18 @@ def switch(opt):
 			echo(str(user.id) + ' | ' + user.name + ' | ' + user.email)
 		switch(raw_input("\n>"));	
 		
+	elif opt == 'help':
+		echo('add - add new user')
+		echo('list - list current users')
+		echo('rm - remove a user')
+		echo('export - export users in users.txt in current folder')
+		echo('import - import users from users.txt if file exists')
+		echo('exit - exit from system')
+		switch(raw_input("\n>"));
+		
+	elif opt == 'exit':
+		echo('Goodbye')	
+		
 	else:
 		switch(raw_input("WTF you want? say help nb\n>"))
 	
